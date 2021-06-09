@@ -1,0 +1,83 @@
+table {
+    margin: 20px 0 20px 0;
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr#total td{
+    text-align: right;
+    font-size: 24px;
+}
+
+th.prod_name{
+    width: 450px;    
+}
+
+td p{
+    display:inline-block;
+    margin-left:25px;
+}
+
+th.prod_price{
+    width: 150px;
+}
+
+th.prod_quantity{
+    width:200px;
+}
+
+th.total_price{
+    width: 150px;
+}
+
+td img{
+    position:relative;
+    top:10px;
+    width:45px;
+}
+
+.qty_buttons{
+    text-align: center;
+}
+
+.qty_buttons input[type=submit]{
+    width:30px;
+    height:30px;
+    font-size: 24px;
+}
+
+input[type=text]{
+    height:24px;
+    width:80px;
+    font-size: 20px;
+    text-align: center;
+}
+
+fieldset{
+    border:none;
+    margin-top:50px;
+}
+
+#order_button input[type=submit]{
+    width:180px;
+    height:60px;
+    font-size: 24px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
